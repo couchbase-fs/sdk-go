@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-go get -u -v -t github.com/couchbaselabs/cbfs
-go get -u -v -t github.com/couchbaselabs/cbfs/tools/cbfsclient
+go get -u -v -t github.com/couchbase-fs/sdk-go
+go get -u -v -t github.com/couchbase-fs/sdk-go/tools/cbfsclient
 
 # did they pass in a branch name?
 if [ -n "$1" ]; then
